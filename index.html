@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <meta name="description" content="Explore the interactive results summary component showcasing key features, scores, and icons. This project highlights the use of HTML, CSS, and JavaScript to create a responsive web design.">
+  <meta name="author" content="Grimm-N">
+  <!-- favicon -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <!-- styles -->
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="styles.css">
+  <!-- title -->
+  <title>Frontend Mentor | Results summary component by Grimm-N</title>
+</head>
+<body>
+  <section class="results">
+    <!-- score item -->
+    <div class="results__item results__item--score">
+      <h2 class="results__item-title results__item-title--white">Your Result</h2>
+      <div class="results__item-circle">
+        <div class="circle">
+          <div class="circle__value">0</div>
+          <div class="circle__label">of 100</div>
+        </div>
+      </div>
+      <div class="results__item-rating">Great</div>
+      <p class="results__item-comment">Your scored higher than 65% of the people who have taken these tests.</p>
+    </div>
+
+<!-- data from the json file is imported here -->
+
+    <!-- summary item -->
+    <div class="results__item results__item--summary">
+      <h2 class="results__item-title results__item-title--dark">Summary</h2>
+      <div class="results__item-list" id="results-list"></div>
+      <button class="results__item-button">Continue</button>
+    </div>
+  </section>
+  
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#https://www.frontendmentor.io/profile/Grimm-N">Grimm-N</a>.
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
