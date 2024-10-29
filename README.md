@@ -1,13 +1,11 @@
-# Results summary component solution by Grimm-N
-Responsive section Results summary component (HTML, SASS, JavaScript)
+# Responsive section Results summary component (HTML, SASS, JavaScript)
 
-This is a solution to the [Results summary component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/results-summary-component-CE_K6s0maV).
+![Web design 1614px](./screenshots/web-1614px.png)
 
 ## Table of contents
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
@@ -24,10 +22,6 @@ Users should be able to:
 - View the optimal layout for the interface depending on their device's screen size
 - See hover and focus states for all interactive elements on the page
 - **Bonus**: Use the local JSON data to dynamically populate the content
-
-### Screenshot
-
-![Web design 1614px](./screenshots/web-1614px.png)
 
 ### Links
 
